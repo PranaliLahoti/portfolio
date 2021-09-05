@@ -1,0 +1,98 @@
+
+.my-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 32px;
+}
+
+.about-sub-head{
+    margin: 0;
+    font-weight: 900;
+    font-family: Montserrat;
+    font-size: 24px;
+    letter-spacing: 0.2px;
+}
+.about-deatils{
+    font-size: 20px;
+    font-family: Montserrat;
+    letter-spacing: 0.2px;
+    margin: 0 0 32px 0;
+}
+.personal-details >h2{
+    margin-bottom: 35px;
+}
+.personal-details >h2 >i{
+    font-weight: 500;
+}
+
+.vector-frame{
+    position: fixed;
+    z-index: -10;
+    left: 0;
+    bottom: 0;
+    width: 55%;
+}
+
+.about-vector{
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.education-accordian{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+.accordian-alignment{
+    margin-top: 100px;
+}
+.Accordian-heading >h3{
+    font-style:normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 46px;
+    letter-spacing: 0.2px;
+    margin: 0;
+}
+
+.accordians{
+    width: 100%;
+}
+
+
+.accordian-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #c6e6f1;
+}
+
+/* For small width screens */
+@media only screen and (max-width: 640px) {
+    .vector-frame{
+       width: 90%;
+    }
+    .my-education{
+        margin: 0;
+    }
+
+    .Accordian-heading >h3{
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 40px;
+    }
+    .about-sub-head{
+        font-weight: 700;
+        font-size: 20px;
+    }
+    .about-deatils{
+        font-size: 16px;
+    }
+      
+}

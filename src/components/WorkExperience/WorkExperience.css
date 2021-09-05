@@ -1,0 +1,109 @@
+.work-cards-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 60px;
+    align-self: center;
+    justify-content: center;
+}
+.work-card{
+    width: 100%;
+    background: linear-gradient(39.97deg, #c6e6f1 0.79%, #84b4f7 79.29%);
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+    display: flex;
+    margin: 20px;
+    align-items: center;
+}
+.work-card:hover{
+    box-shadow: 10px 40px 50px;
+    transition: all 0.3s;
+}
+.work-details-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0px 35px 20px 35px;
+}
+
+.job-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+}
+.div-margin{
+    margin-top: -30px;
+}
+
+.job-duration{
+    padding-top: 8px;
+}
+
+.company-location{
+    padding-top: 2px;
+}
+.projects-info{
+    display: flex;
+    flex-direction: column;
+}
+.project-description{
+    display: flex;
+    flex-direction: row;
+}
+.project-description >h4{
+        margin:0;
+        padding-right: 20px;
+}
+
+.project-detail{
+        padding-bottom: 15px;
+}
+.project-detail >p{
+    margin: 0;
+    color: black;
+}
+
+@media only screen and (max-width: 640px) {
+    .work-cards-container{
+        padding: 15px;
+    }
+    .work-card{
+        margin: 20px 0px;
+    }
+    .work-card:hover{
+        box-shadow: 0px 40px 40px;
+    }
+    .work-details-container{
+        padding: 0px 30px;
+    }
+    
+    .job-info{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .div-margin{
+        margin-top: 0px;
+    }
+    .job-title{
+        text-align: center;
+        margin-bottom: 0;
+    }
+    .job-duration{
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+    .company-name{
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+    .company-location{
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+    .project-description{
+        flex-direction: column;
+    }    
+}
+
