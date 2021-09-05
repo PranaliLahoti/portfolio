@@ -2,7 +2,7 @@
 export const skillList = [
     {
         skillName: 'Python',
-        skillUrl: process.env.PUBLIC_URL+'../images/python.png',
+        skillUrl: process.env.PUBLIC_URL+'/../images/python.png',
     },
     {
         skillName: 'Java',
