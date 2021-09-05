@@ -28,7 +28,7 @@ const SocialIcons = ()=>{
                 <a href="https://www.hackerrank.com/lahotipranali" target="_blank" className="social-icon" rel="noreferrer">
                     <img className="resize" src={hackerrank} alt="social" />
                 </a>
-                <a href={window.location} target="_blank" className="social-icon" rel="noreferrer">
+                <a href="https://pranalilahoti.github.io/portfolio/" target="_blank" className="social-icon" rel="noreferrer">
                     <img className="resize" src={web} alt="social" />
                 </a>
             </div>
