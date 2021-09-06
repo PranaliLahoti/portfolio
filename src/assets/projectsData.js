@@ -19,7 +19,7 @@ export const projectsData = [
         projectName: 'Name It',
         projectDescription:
             'Built a name suggestion application using react which helps to find the cool names for  project, venture, or startup.',
-        projectUrl: 'http://PranaliLahoti.github.io/nameit/',
+        projectUrl: 'https://PranaliLahoti.github.io/nameit/',
         projectSkills: 'React, CSS, Deployment',
         projectDuration:'Feb 2021'
     },
