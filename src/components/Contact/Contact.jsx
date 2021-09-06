@@ -34,7 +34,8 @@ const Contact = () =>{
             phrase="Read more  " 
             link="about me!" 
             toAddress="/about" />
-
+            {/* <span className="made-withlove">Made with ❤️ by Pranali Lahoti!</span> */}
+            {/* <span>Made with &#10084; by Pranali Lahoti</span> */}
             <div className="vector-frame">
                 <img src={AboutImage} className="about-vector" alt="about" />
             </div>
