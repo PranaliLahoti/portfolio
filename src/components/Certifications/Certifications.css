@@ -41,7 +41,7 @@
     color: black;
 }
 .image-container:hover .certificate-org {
-    opacity: 0.3;
+    opacity: 0.2;
   }
   
   .image-container:hover .certification-text {

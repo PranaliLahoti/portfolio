@@ -13,8 +13,7 @@ const Certifications = ()=>{
     return(
         <div className="section-container">
             <Header Heading="My Certifications" 
-            subHeading="“An investment in knowledge always pays the best interest.” 
-            —Benjamin Franklin " />
+            subHeading="“An investment in knowledge always pays the best interest.” " />
 
             <div className="certificate-cards-container">
                     {

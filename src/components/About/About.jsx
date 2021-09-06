@@ -99,6 +99,9 @@ const About = () =>{
                                 Gender: <i>Female</i>
                             </h2>
                             <h2 className="about-sub-head ">
+                                Personal Email: <i>lahotipranali@gmail.com</i>
+                            </h2>
+                            <h2 className="about-sub-head ">
                             Current Address:<i> Rahuri, Ahmednagar, Maharashtra, India - 413705</i>
                             </h2>
                             <h2 className="about-sub-head ">
