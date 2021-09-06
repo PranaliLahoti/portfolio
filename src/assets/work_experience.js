@@ -4,7 +4,7 @@ export const work_experience = [
         company_location:'Mumbai, Maharashtra',
         job_title:'Software Developer',
         job_skills:' Angular, Django, Flask, MySQL, GCP, AWS, Javascript',
-        job_duration:'Aug, 2020 - Present',
+        job_duration:'August, 2020 - Present',
         job_description:[
             {
                 project_name:'Data Sharing Platform',

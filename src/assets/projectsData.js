@@ -29,7 +29,7 @@ export const projectsData = [
             'Developed a desktop application for an online programming course registration system having CRUD functionalities.',
         projectUrl: '',
         projectSkills:'Java, MySQL',
-        projectDuration: 'Aug 2018 - Sep 2018'
+        projectDuration: 'Aug 2018 - Sept 2018'
     },
     {
         projectName: 'Portfolio Website',
@@ -37,7 +37,7 @@ export const projectsData = [
             'Developed my own portfolio website showcasing my academic qualification, industrial experience, projects, skills, certifications, achievements, contact details.',
         projectUrl: 'https://pranalilahoti.github.io/portfolio/',
         projectSkills:'React, Javascript, Html, CSS',
-        projectDuration: 'August 2021 - September 2021'
+        projectDuration: 'Aug 2021 - Sept 2021'
     },
     {
         projectName: 'Smart Greenhouse',
