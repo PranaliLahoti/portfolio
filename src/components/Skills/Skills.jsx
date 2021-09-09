@@ -1,5 +1,5 @@
 import React from 'react';
-import FooterLink from '../FooterLink/FooterLink';
+// import FooterLink from '../FooterLink/FooterLink';
 import Header from '../Header/Header';
 import './Skills.css';
 import {skillList} from '../../assets/skillsData'
@@ -7,6 +7,7 @@ import {skillList} from '../../assets/skillsData'
 import skillsVector from '../../assets/skills_vector.png'
 import SkillCard from './SkillCard';
 import SocialIcons from '../SocialIcons/SocialIcons';
+import HorizontalNavbar from '../HorizontalNavbar/HorizontalNavbar';
 
 const Skills = ()=>{
     return(
@@ -26,10 +27,12 @@ const Skills = ()=>{
                 <img src={skillsVector} className="skills-vector" alt="skills" />
             </div>
             <SocialIcons/>
-            <FooterLink 
+            <HorizontalNavbar/>
+
+            {/* <FooterLink 
             phrase="See my  " 
             link="certifications!" 
-            toAddress="/certifications" />
+            toAddress="/certifications" /> */}
         </div>
     )
 }

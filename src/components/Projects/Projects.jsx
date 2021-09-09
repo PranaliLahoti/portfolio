@@ -1,6 +1,7 @@
 import React from 'react';
-import FooterLink from '../FooterLink/FooterLink';
+// import FooterLink from '../FooterLink/FooterLink';
 import Header from '../Header/Header';
+import HorizontalNavbar from '../HorizontalNavbar/HorizontalNavbar';
 import SocialIcons from '../SocialIcons/SocialIcons';
 
 import {projectsData} from './../../assets/projectsData'
@@ -12,7 +13,7 @@ const Projects = () =>{
     return(
         <div className="section-container">
              <Header Heading="My Projects" 
-            subHeading="Passionate about new technologies, I keep exploring stuff. Here are projects I have worked on!" />
+            subHeading="Passionate about new technologies, I keep exploring stuff. Here are projects (excluding industrial) I have worked on!" />
 
             <div className="project-cards-container">
                     {
@@ -27,10 +28,11 @@ const Projects = () =>{
                     }
             </div>
             <SocialIcons/>
-            <FooterLink 
+            <HorizontalNavbar/>
+            {/* <FooterLink 
             phrase="Check out  " 
             link="my skills!" 
-            toAddress="/skills" />
+            toAddress="/skills" /> */}
         </div>
     )
 }

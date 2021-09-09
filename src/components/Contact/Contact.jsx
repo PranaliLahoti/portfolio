@@ -1,11 +1,12 @@
 import React from 'react';
-import FooterLink from '../FooterLink/FooterLink';
+// import FooterLink from '../FooterLink/FooterLink';
 import Header from '../Header/Header';
 
 import AboutImage from '../../assets/about_vector.png'
 
 import './Contact.css';
 import SocialIcons from '../SocialIcons/SocialIcons';
+import HorizontalNavbar from '../HorizontalNavbar/HorizontalNavbar';
 
 
 
@@ -29,11 +30,11 @@ const Contact = () =>{
             </div>
 
             <SocialIcons/>
-
-            <FooterLink
+            <HorizontalNavbar/>
+            {/* <FooterLink
             phrase="Read more  " 
             link="about me!" 
-            toAddress="/about" />
+            toAddress="/about" /> */}
             {/* <span className="made-withlove">Made with ❤️ by Pranali Lahoti!</span> */}
             {/* <span>Made with &#10084; by Pranali Lahoti</span> */}
             <div className="vector-frame">

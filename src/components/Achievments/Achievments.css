@@ -14,7 +14,6 @@
 .achievement-name{
     width: 100%;
     /* min-height: 100px; */
-    /* box-shadow: 10px 20px 20px; */
     /* background: #fff; */
     background: linear-gradient(39.97deg, #c6e6f1 0.79%, #84b4f7 79.29%);
     box-shadow: 10px 20px 20px;
@@ -35,7 +34,6 @@
     font-weight: 900;
     font-family: Montserrat;
     font-size: 20px;
-    /* letter-spacing: 0.2px; */
 }
 .achiement-title >p{
     margin: 0;

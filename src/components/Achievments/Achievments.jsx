@@ -1,11 +1,11 @@
 import React from 'react'
-import FooterLink from '../FooterLink/FooterLink'
+// import FooterLink from '../FooterLink/FooterLink'
 import Header from '../Header/Header'
+import HorizontalNavbar from '../HorizontalNavbar/HorizontalNavbar'
 import SocialIcons from '../SocialIcons/SocialIcons'
 
 import {achievements} from './../../assets/achievements'
 
-// import Awards from '../../assets/awards.jpg'
 
 import './Achievments.css'
 const Achievments = ()=>{
@@ -33,15 +33,13 @@ const Achievments = ()=>{
                     }
                     
                 </div>
-                {/* <div className="achievements-image">
-                    <img className="awards-img" src={Awards} alt="my-awards"></img>
-                </div> */}
             </div>
             <SocialIcons/>
-            <FooterLink 
+            <HorizontalNavbar/>
+            {/* <FooterLink 
             phrase="Get in  " 
             link="touch!" 
-            toAddress="/contact" />
+            toAddress="/contact" /> */}
         </div>
     )
 }

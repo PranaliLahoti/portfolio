@@ -20,14 +20,14 @@ class NavBar extends Component{
             <Menu>
              {/** We never want to use <a> inside our react application */}
               {/* <a id="home" className="menu-item" href="/">Home</a> */}
-            <Link to='/' className= {`menu-item ${homeClass}`} >Home</Link>
-            <Link to='/about' className= {`menu-item ${aboutClass}`} >About</Link>
-            <Link to='/experience' className= {`menu-item ${experienceClass}`} >Work Experience</Link>
-            <Link to='/projects' className= {`menu-item ${projectsClass}`} >Projects</Link>
-            <Link to='/skills' className= {`menu-item ${skillsClass}`} >Skills</Link>
-            <Link to='/certifications' className= {`menu-item ${certificationClass}`} >Certifications</Link>
-            <Link to='/achievements' className= {`menu-item ${achievementsClass}`} >Achievements</Link>
-            <Link to='/contact' className= {`menu-item ${contactClass}`} >Contact</Link>
+            <Link to='/' replace  className= {`menu-item ${homeClass}`} >Home</Link>
+            <Link to='/about' replace  className= {`menu-item ${aboutClass}`} >About</Link>
+            <Link to='/experience' replace  className= {`menu-item ${experienceClass}`} >Work Experience</Link>
+            <Link to='/projects' replace  className= {`menu-item ${projectsClass}`} >Projects</Link>
+            <Link to='/skills' replace  className= {`menu-item ${skillsClass}`} >Skills</Link>
+            <Link to='/certifications' replace  className= {`menu-item ${certificationClass}`} >Certifications</Link>
+            <Link to='/achievements' replace  className= {`menu-item ${achievementsClass}`} >Achievements</Link>
+            <Link to='/contact' replace  className= {`menu-item ${contactClass}`} >Contact</Link>
               
             </Menu>
           );

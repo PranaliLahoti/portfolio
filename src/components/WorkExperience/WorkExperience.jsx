@@ -1,5 +1,5 @@
 import React from 'react'
-import FooterLink from '../FooterLink/FooterLink'
+// import FooterLink from '../FooterLink/FooterLink'
 import Header from '../Header/Header'
 import SocialIcons from '../SocialIcons/SocialIcons'
 
@@ -7,6 +7,7 @@ import {work_experience} from './../../assets/work_experience'
 import WorkExperienceCard from './WorkExperienceCard'
 
 import './WorkExperience.css'
+import HorizontalNavbar from '../HorizontalNavbar/HorizontalNavbar'
 
 const WorkExperience = ()=>{
     return(
@@ -30,10 +31,12 @@ const WorkExperience = ()=>{
             </div>
 
             <SocialIcons />
-            <FooterLink 
+            <HorizontalNavbar/>
+
+            {/* <FooterLink 
             phrase="Check out " 
             link="my individual projects!" 
-            toAddress="/projects" />
+            toAddress="/projects" /> */}
         </div>
     )
 }

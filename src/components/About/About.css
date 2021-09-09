@@ -12,14 +12,12 @@
     font-family: Montserrat;
     font-size: 24px;
     letter-spacing: 0.2px;
-    /* text-align: center; */
 }
 .about-deatils{
     font-size: 20px;
     font-family: Montserrat;
     letter-spacing: 0.2px;
     margin: 0 0 32px 0;
-    /* text-align: center; */
 }
 .personal-details >h2{
     margin-bottom: 35px;
@@ -85,7 +83,6 @@
     }
 
     .Accordian-heading >h3{
-        /* font-weight: 900; */
         font-size: 16px;
         line-height: 40px;
     }

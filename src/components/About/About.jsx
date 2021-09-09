@@ -12,11 +12,12 @@ import './About.css'
 
 import AboutImage from '../../assets/about_vector.png'
 
-import FooterLink from '../FooterLink/FooterLink';
+// import FooterLink from '../FooterLink/FooterLink';
 import SocialIcons from '../SocialIcons/SocialIcons';
 
 import { withStyles } from "@material-ui/core/styles";
 import MuiAccordionSummary from "@material-ui/core/AccordionSummary";
+import HorizontalNavbar from '../HorizontalNavbar/HorizontalNavbar';
 const AccordionSummary = withStyles({
   content: {
     flexGrow: 0
@@ -117,11 +118,11 @@ const About = () =>{
             </div>
 
             <SocialIcons/>
-            <FooterLink 
+            {/* <FooterLink 
             phrase="check out my " 
             link="work experience!" 
-            toAddress="/experience" />
-
+            toAddress="/experience" /> */}
+              <HorizontalNavbar/>
             <div className="vector-frame">
                 <img src={AboutImage} className="about-vector" alt="about" />
             </div>

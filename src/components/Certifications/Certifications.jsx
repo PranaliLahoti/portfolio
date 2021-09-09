@@ -1,6 +1,7 @@
 import React from 'react';
-import FooterLink from '../FooterLink/FooterLink';
+// import FooterLink from '../FooterLink/FooterLink';
 import Header from '../Header/Header';
+import HorizontalNavbar from '../HorizontalNavbar/HorizontalNavbar';
 import SocialIcons from '../SocialIcons/SocialIcons';
 
 import {certificationsInfo} from './../../assets/certificationsInfo'
@@ -27,10 +28,11 @@ const Certifications = ()=>{
                     }
             </div>
         <SocialIcons/>
-        <FooterLink 
+        <HorizontalNavbar/>
+        {/* <FooterLink 
             phrase="See my  " 
             link="achievements!" 
-            toAddress="/achievements" />
+            toAddress="/achievements" /> */}
         </div>
     )
 }
