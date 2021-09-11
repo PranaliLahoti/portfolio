@@ -92,13 +92,13 @@ const About = () =>{
                             <h2 className="about-sub-head ">
                                 Name: <i>Pranali Vijaykumar Lahoti</i>
                             </h2>
-                            <h2 className="about-sub-head ">
-                                    Birth Date: <i>October 12, 1998</i>
-                            </h2>
+                            {/* <h2 className="about-sub-head ">
+                                    Birth Date: <i>October, 1998</i>
+                            </h2> */}
                         
-                            <h2 className="about-sub-head ">
+                            {/* <h2 className="about-sub-head ">
                                 Gender: <i>Female</i>
-                            </h2>
+                            </h2> */}
                             <h2 className="about-sub-head ">
                                 Personal Email: <i>lahotipranali@gmail.com</i>
                             </h2>

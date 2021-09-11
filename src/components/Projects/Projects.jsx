@@ -13,7 +13,7 @@ const Projects = () =>{
     return(
         <div className="section-container">
              <Header Heading="My Projects" 
-            subHeading="Passionate about new technologies, I keep exploring stuff. Here are projects (excluding industrial) I have worked on!" />
+            subHeading="Passionate about new technologies, I keep exploring stuff. Here are some of my personal projects!" />
 
             <div className="project-cards-container">
                     {
