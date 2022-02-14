@@ -28,7 +28,10 @@ const About = () =>{
     return(
         <div className="section-container">
             <Header Heading="About me" 
-            subHeading="Software Developer | Computer Engineer" />
+            subHeading="I am a software engineer with good work experience in software industry. I
+            have holistic knowledge of software development and design. I am a certified
+            cloud developer with expertise in frontend as well as backend development. I
+            have worked on multiple projects which includes B2C and B2B." />
 
 
             <div className="education-accordian accordian-alignment">

@@ -1,18 +1,18 @@
 export const achievements=[
     {
-        achievementName:'Google Cloud Associate Cloud Engineer certified',
+        achievementName:'Google Cloud Certified Associate Cloud Engineer',
         achievementDate:'(Dec’20)'
     },
     {
-        achievementName:'AWS Developer Associate certified',
+        achievementName:'AWS Certified Developer - Associate',
         achievementDate:'(Nov’20)'
     },
     {
-        achievementName:'Secured position in Top 50 in National Engineering Olympiad Examination',
+        achievementName:'Top 50 in National Engineering Olympiad',
         achievementDate:'(May’18)'
     },
     {
-        achievementName:'Secured position in Top 30 in Maharashtra Talent State Exam in 3 consecutive years',
+        achievementName:'Top 30 in Maharashtra Talent State Exam for 3 consecutive years',
         achievementDate:'(Apr’12, Apr’13, Apr’14)'
     },
     {

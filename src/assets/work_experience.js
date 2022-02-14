@@ -8,12 +8,17 @@ export const work_experience = [
         job_description:[
             {
                 project_name:'Data Sharing Platform',
-                project_description:'Developed data sharing platform for the state government of US. The platform has data registration, data access request (entire dataset/tables), data deletion (entire/partial), access revoke, dataset table addition/change, application registration, alert notifications, approval/rejection functionalities across 3 user types (consumer/owner/admin). The frontend is built on angular and backend on Django. Used GCP services big query, data store, cloud storage, app engine for storage and deployment.',
-                key_skills:'Angular, Django, Javascript, GCP Services(Datastore, Big query, Cloud storage)'
+                project_description:'Developed platform having data registration, data access request (entire dataset/tables), data deletion (entire/partial), access revoke, dataset table addition/change, application registration, alert notifications, approval/rejection functionalities across 3 user types (consumer/owner/admin).',
+                key_skills:'Angular, Django, Javascript, GCP, Datastore, Big query, Cloud storage'
             },
             {
-                project_name:'Solution Engineering',
-                project_description:'Developed a retail showcase demo platform based on micro services architecture using retail apparel dataset. Was involved in building the application using flask. Worked on Cloud MySQL to bring data on the front end. Transformed Big Query data to Recommendation AI’s standard schema to feed the model and based on that got recommendation results.',
+                project_name:'Customer Data Platform',
+                project_description:'Developed a product that collects & unifies first party customer data from multiple sources to build a single, coherent, complete view of each customer.',
+                key_skills:'Angular, JavaScript, NodeJS, Rest API, SQL, Big query'
+            },
+            {
+                project_name:'Data Pipeline for Recommendation Engine',
+                project_description:'Transformed Big Query data to Recommendation AI’s standard schema to feed the model and based on that got recommendation results.',
                 key_skills:'Flask, MySQL, GCP, Cloud SQL'
             }
         ],
